@@ -1,0 +1,359 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.43f1 (75bff06b76bf) revision 7716848'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'tr' Physical Memory: 16151 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/hp/My project (1)
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+51164
+Successfully changed project path to: C:/Users/hp/My project (1)
+C:/Users/hp/My project (1)
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 31.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.43f1 (75bff06b76bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.43f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/hp/My project (1)/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   
+    VRAM:     5968 MB
+    Driver:   31.0.15.2824
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.43f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.43f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.43f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001522 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 33.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.499 seconds
+Domain Reload Profiling:
+	ReloadAssembly (499ms)
+		BeginReloadAssembly (51ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (379ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (127ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (145ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (33ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002098 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.882 seconds
+Domain Reload Profiling:
+	ReloadAssembly (883ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (707ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (241ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (279ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1532 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.8 MB.
+System memory in use after: 82.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1988.
+Total: 2.297900 ms (FindLiveObjects: 0.112300 ms CreateObjectMapping: 0.043200 ms MarkObjects: 2.075200 ms  DeleteObjects: 0.066500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/3D Cartoon Village/Models/NewBrush 1.brush
+  artifactKey: Guid(53b2d5d5162f5814abf9561fa37f442f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Models/NewBrush 1.brush using Guid(53b2d5d5162f5814abf9561fa37f442f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c812b80dbceb0e9d93d37db7623e2ede') in 0.063859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 146.488075 seconds.
+  path: Assets/3D Cartoon Village/Materials/_LightGray_.mat
+  artifactKey: Guid(39e898393456ee64c94b931509d0b6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/_LightGray_.mat using Guid(39e898393456ee64c94b931509d0b6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9fdec86bd2e28921ae9d1b42fb97373') in 0.104018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/3D Cartoon Village/Materials/Color_A12.mat
+  artifactKey: Guid(ab6c766af05803c4195c87839bb4d24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/Color_A12.mat using Guid(ab6c766af05803c4195c87839bb4d24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf00d9ceb2146ebe954dc81c7ecaa7b') in 0.020105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/3D Cartoon Village/Materials/Color_004.mat
+  artifactKey: Guid(09c0c3f8df5925948ae159e03bf40def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/Color_004.mat using Guid(09c0c3f8df5925948ae159e03bf40def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e16276faf983d164f5309627f28a134') in 0.016358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/3D Cartoon Village/Materials/Color_C05.mat
+  artifactKey: Guid(64651fa1929606a4a932e75eeda445e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/Color_C05.mat using Guid(64651fa1929606a4a932e75eeda445e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8d06ed9844e8eaf5e96e6cf55e6385') in 0.017694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/3D Cartoon Village/Materials/FrontColor.mat
+  artifactKey: Guid(786bd712b64472c49845f195b3a7ad92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/FrontColor.mat using Guid(786bd712b64472c49845f195b3a7ad92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5b699e835272d6010bbd9065ae11be') in 0.023984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/3D Cartoon Village/Materials/Color_000.mat
+  artifactKey: Guid(2029a5a2a27b8484bb3e2562d8bbdfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/Color_000.mat using Guid(2029a5a2a27b8484bb3e2562d8bbdfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9206c5e6d1570f829b45ccc1bb6fd6bf') in 0.017567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/3D Cartoon Village/Materials/Color_F17.mat
+  artifactKey: Guid(2033bb4b4d15eb84f98ba0d72d31ccd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/Color_F17.mat using Guid(2033bb4b4d15eb84f98ba0d72d31ccd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace8f3a9fb8a9642d06fe927ff5a8bad') in 0.017284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/3D Cartoon Village/Materials/Color_C09.mat
+  artifactKey: Guid(eba0c9fc900276c46a94a4e62e9aa5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/Color_C09.mat using Guid(eba0c9fc900276c46a94a4e62e9aa5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea986f07b411f14ccd195cc8ed0b3ad5') in 0.021102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/3D Cartoon Village/Materials/Color_D10.mat
+  artifactKey: Guid(00b9f82776e13e744bbad95a44a4371b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/Color_D10.mat using Guid(00b9f82776e13e744bbad95a44a4371b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690a9faf34b867d600dff5d0f0d7c2ed') in 0.018016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/3D Cartoon Village/Materials/Color_F16.mat
+  artifactKey: Guid(b0cfa1d6ddc12c24fabe427a21c8101c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/Color_F16.mat using Guid(b0cfa1d6ddc12c24fabe427a21c8101c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e073dafd0b1bea9e9d99694fd4b229fb') in 0.017099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/3D Cartoon Village/Materials/Color_C07.mat
+  artifactKey: Guid(dac2e7ceb5f06b64f81b90e5400b2bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/Color_C07.mat using Guid(dac2e7ceb5f06b64f81b90e5400b2bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa00e6a69578237bc261dcc35fc8390d') in 0.018444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/3D Cartoon Village/Materials/Color_F15.mat
+  artifactKey: Guid(a17d12550b4f0fb45ac869a8e5772450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/Color_F15.mat using Guid(a17d12550b4f0fb45ac869a8e5772450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ccd45bfb7092bbf269c2b5e38d7cfd') in 0.016287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/3D Cartoon Village/Materials/Color_E13.mat
+  artifactKey: Guid(fd5d10bcf5270ed49aa7ce533b9fb210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/Color_E13.mat using Guid(fd5d10bcf5270ed49aa7ce533b9fb210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e299f35f97ce086db8804e6b54d947') in 0.018713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/3D Cartoon Village/Materials/Color_C12.mat
+  artifactKey: Guid(2cea64b40f3a51441b57b84f34a9f545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/Color_C12.mat using Guid(2cea64b40f3a51441b57b84f34a9f545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b670ac54626c062f8c143dfa813f8634') in 0.014657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/3D Cartoon Village/Materials/Color_D18.mat
+  artifactKey: Guid(987f4445588c1004881c8a5ed640cffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/Color_D18.mat using Guid(987f4445588c1004881c8a5ed640cffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4713a070615b7b1bb0544248afe16238') in 0.017279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/3D Cartoon Village/Materials/Color_C01.mat
+  artifactKey: Guid(0f21e80fd9c432647ba72535d059c629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/Color_C01.mat using Guid(0f21e80fd9c432647ba72535d059c629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c151c4902c4bbdbf67ae806ef5766540') in 0.017903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/3D Cartoon Village/Materials/Color_C18.mat
+  artifactKey: Guid(cf0ad78c86cc460428011455a47b6ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/Color_C18.mat using Guid(cf0ad78c86cc460428011455a47b6ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c51b27143d5fad05272f332f9d46c0') in 0.017987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/3D Cartoon Village/Materials/Color_D04.mat
+  artifactKey: Guid(085a2928b1de0fe4fb313e719203cb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/Color_D04.mat using Guid(085a2928b1de0fe4fb313e719203cb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a529e2bbda7f7e395f5ada99d10fda0') in 0.018028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/3D Cartoon Village/Materials/Color_005.mat
+  artifactKey: Guid(1b558b44091907f46bdc891d8b18fa22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/Color_005.mat using Guid(1b558b44091907f46bdc891d8b18fa22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733fa1dfb51e8db6f627ec4b8c7adf88') in 0.019074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/3D Cartoon Village/Materials/Color_008.mat
+  artifactKey: Guid(55e70bce0d26efb4a916a3dfbcf376cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/Color_008.mat using Guid(55e70bce0d26efb4a916a3dfbcf376cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f2439b92e696cfc7988be882397290') in 0.017775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/3D Cartoon Village/Materials/Color_B08.mat
+  artifactKey: Guid(75b471f61071b9743a7c8319e6e4b91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/Color_B08.mat using Guid(75b471f61071b9743a7c8319e6e4b91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91bfb859994cae7fd0d5b76045b24996') in 0.019888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/3D Cartoon Village/Materials/Color_D05.mat
+  artifactKey: Guid(32ca2d1a229157d41a2c1a935edbd433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/Color_D05.mat using Guid(32ca2d1a229157d41a2c1a935edbd433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc4519a1b89fe13c1676a161fb2b13d') in 0.016900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/3D Cartoon Village/Materials/Color_I10.mat
+  artifactKey: Guid(9cde27f1d01bb58488780feec5432bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/Color_I10.mat using Guid(9cde27f1d01bb58488780feec5432bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e5862ba07007414f191f2416eb0a61') in 0.019745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/3D Cartoon Village/Materials/Color_D13.mat
+  artifactKey: Guid(e711be52282cf2843b1d3c2cae2e7f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/Color_D13.mat using Guid(e711be52282cf2843b1d3c2cae2e7f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2d65ea358bed72dd5994a88a697969') in 0.019024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/3D Cartoon Village/Materials/Color_C13.mat
+  artifactKey: Guid(2dab9cb0940e8754eb3fb728d8adb643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/Color_C13.mat using Guid(2dab9cb0940e8754eb3fb728d8adb643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc9959c95405e24815ec4aaa8188b4d') in 0.020637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/3D Cartoon Village/Materials/Color_007.mat
+  artifactKey: Guid(4473d3aa8f385654795f98b674c20462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/Color_007.mat using Guid(4473d3aa8f385654795f98b674c20462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6761c094626736116265cd89cb6ab251') in 0.019463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/3D Cartoon Village/Materials/Color_A16.mat
+  artifactKey: Guid(a82b2304950d9874681e1d962e925b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/Color_A16.mat using Guid(a82b2304950d9874681e1d962e925b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee3c8db6d0fe61c9d8b31179b9e6b0c') in 0.016918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/3D Cartoon Village/Materials/Color_C16.mat
+  artifactKey: Guid(bc315f3438ef2b145bb98805461e9d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/Color_C16.mat using Guid(bc315f3438ef2b145bb98805461e9d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920dbdf3e766689172b74e0d7e00586e') in 0.022911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/3D Cartoon Village/Materials/Color_D09.mat
+  artifactKey: Guid(95f0f65b709bc534ea4b251a7744d17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/Color_D09.mat using Guid(95f0f65b709bc534ea4b251a7744d17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf578fe4f891978bd32862079c3bfb8') in 0.016424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/3D Cartoon Village/Materials/Color_C08.mat
+  artifactKey: Guid(991fe0467bc27354f88af9913757671c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/Color_C08.mat using Guid(991fe0467bc27354f88af9913757671c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa63de5c04e3be92da6c646ef2827f8') in 0.018689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/3D Cartoon Village/Materials/BackColor.mat
+  artifactKey: Guid(76ba543a11481b94fbb79034d865c48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Materials/BackColor.mat using Guid(76ba543a11481b94fbb79034d865c48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c50b2a38dc3d58b8dd0cd00bb872c0e') in 0.016310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.459731 seconds.
+  path: Assets/3D Cartoon Village/Scene/New Terrain.asset
+  artifactKey: Guid(7da81eb9165fd40469697325b04180d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Scene/New Terrain.asset using Guid(7da81eb9165fd40469697325b04180d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Received signal SIGSEGV
+Stack trace:
+0x00007ff651670cba (Unity) CreateAssetToGUIDMappingV2
+0x00007ff651615180 (Unity) AssetDatabase::CreateAssetToGUIDMapping
+0x00007ff650b86100 (Unity) SplatDatabase::CreateTerrainLayerAsset
+0x00007ff650b84d50 (Unity) SplatDatabase::ConvertSplatsToTerrainLayers
+0x00007ff650b81c3c (Unity) SplatDatabase::AwakeFromLoad
+0x00007ff650bbfc16 (Unity) TerrainData::AwakeFromLoad
+0x00007ff6507b93df (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007ff6507b9d72 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff6507b9ee3 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff65078c144 (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x00007ff65078cc94 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x00007ff650790329 (Unity) PersistentManager::ReadObject
+0x00007ff65160dbd1 (Unity) WritePreviews
+0x00007ff651609921 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff6516ad493 (Unity) ImportToObjects
+0x00007ff6516ac468 (Unity) ImportAsset
+0x00007ff651645278 (Unity) AssetImportWorker::Import
+0x00007ff65166aa4c (Unity) <lambda_6c894734dbee50c93f7912c8ad287316>::operator()
+0x00007ff6516fa7b2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff6516e6652 (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff6516e8564 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff6516f8aef (Unity) IOService::Run
+0x00007ff6516947bb (Unity) RunAssetImportWorkerClientV2
+0x00007ff651694810 (Unity) RunAssetImporterV2
+0x00007ff651107a48 (Unity) Application::InitializeProject
+0x00007ff65158a362 (Unity) WinMain
+0x00007ff652c571ae (Unity) __scrt_common_main_seh
+0x00007ffc544a7614 (KERNEL32) BaseThreadInitThunk
+0x00007ffc54b426b1 (ntdll) RtlUserThreadStart
+
